@@ -1,17 +1,49 @@
-# Proyecto: Secuencia de Fibonacci en Ensamblador y C
+# 🧠 Proyecto de Arquitectura de Computadoras – 8 OCT
 
-## Instrucciones
+> **Implementación de ejercicios en Assembly (16-bit DOS y 64-bit Linux)** con análisis comparativo y documentación técnica detallada.  
+> Proyecto académico — *Universidad UPC Capilla del Monte · Octubre 2024*
 
-1. Instala MASM32 en C:\masm32\
-2. Agrega MASM al PATH:
-   set PATH=%PATH%;C:\masm32\bin
-3. Ejecuta build.bat para compilar y ejecutar el programa ASM.
-4. Usa DOSBox si el ejecutable no corre en tu Windows (16 bits).
+---
 
-## Versión en C
-Compílala con:
-gcc fibonacci.c -o fibonacci
-./fibonacci
+## 🧩 Descripción General
+Este repositorio contiene el trabajo práctico del curso **Arquitectura de Computadoras**, con el objetivo de implementar y analizar programas en **Assembly** y **C**, comprendiendo las diferencias entre arquitecturas y entornos.
 
-## Comparación
-Ambos programas generan la secuencia de Fibonacci, pero en ASM se usan registros y direcciones, mientras que en C se usan índices de arrays.
+📘 **Lenguajes y Entornos:**
+- 💾 **Assembly 16-bit (TASM – DOS)**
+- ⚙️ **Assembly 64-bit (NASM – Linux)**
+- 🧮 **Lenguaje C (comparativo con Assembly)**
+- 💻 **GCC, DOSBox y Google Colab**
+
+---
+
+## 👥 Integrantes del Proyecto
+| Integrante | Rol / Ejercicio |
+|-------------|----------------|
+| 🧑‍💻 Uma Rovetta | Ejercicio 1 – Fibonacci |
+| 👩‍💻 Alan Varela | Ejercicio 2 – Factorial |
+| 👩‍💻 Stefania Britos | Ejercicio 3 – Número Primo |
+| 👩‍💻 Sol De Fransesco | Ejercicio 4 – Suma |
+| 👩‍💻 Selene Sayas | Ejercicio 5 – Complementario |
+
+---
+
+## 📂 Estructura del Repositorio
+```bash
+08oct-arquitectura/
+├── ejercicio-uno/          # Ejercicio 1 - Fibonacci
+├── ejercicio-dos/          # Ejercicio 2 - Factorial
+│   ├── 1-archivos-assembler/
+│   ├── 2-imagenes/
+│   ├── 3-archivos-compilados/
+│   ├── 4-commandos/
+│   └── README.md
+├── ejercicio-tres/         # Ejercicio 3 - Primo
+├── ejercicio-cuatro/       # Ejercicio 4 - Suma
+├── ejercicio-cinco/        # Ejercicio 5 - Complementario
+├── wiki/                   # Archivos fuente del Wiki
+│   ├── Home.md
+│   ├── Ejercicio-2-Factorial.md
+│   ├── Guia-de-Navegacion.md
+│   └── _Sidebar.md
+└── README.md
+
