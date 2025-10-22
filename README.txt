@@ -21,8 +21,8 @@ Este repositorio contiene el trabajo práctico del curso **Arquitectura de Compu
 |-------------|----------------|
 | 🧑‍💻 Uma Rovetta | Ejercicio 1 – Fibonacci |
 | 👩‍💻 Alan Varela | Ejercicio 2 – Factorial |
-| 👩‍💻 Stefania Britos | Ejercicio 3 – Número Primo |
-| 👩‍💻 Sol De Fransesco | Ejercicio 4 – Suma |
+| 👩‍💻 Sol De Fransesco | Ejercicio 3 – Suma | 
+| 👩‍💻 Stefania Britos | Ejercicio 4 – Número Primo |
 | 👩‍💻 Selene Sayas | Ejercicio 5 – Complementario |
 
 ---
@@ -37,8 +37,8 @@ Este repositorio contiene el trabajo práctico del curso **Arquitectura de Compu
 │   ├── 3-archivos-compilados/
 │   ├── 4-commandos/
 │   └── README.md
-├── ejercicio-tres/         # Ejercicio 3 - Primo
-├── ejercicio-cuatro/       # Ejercicio 4 - Suma
+├── ejercicio-tres/         # Ejercicio 3 - Suma
+├── ejercicio-cuatro/       # Ejercicio 4 - Primo
 ├── ejercicio-cinco/        # Ejercicio 5 - Complementario
 ├── wiki/                   # Archivos fuente del Wiki
 │   ├── Home.md
