@@ -30,20 +30,26 @@ Este repositorio contiene el trabajo práctico del curso **Arquitectura de Compu
 ## 📂 Estructura del Repositorio
 ```bash
 08oct-arquitectura/
-├── ejercicio-uno/          # Ejercicio 1 - Fibonacci
-├── ejercicio-dos/          # Ejercicio 2 - Factorial
-│   ├── 1-archivos-assembler/
-│   ├── 2-imagenes/
-│   ├── 3-archivos-compilados/
-│   ├── 4-commandos/
-│   └── README.md
-├── ejercicio-tres/         # Ejercicio 3 - Suma
-├── ejercicio-cuatro/       # Ejercicio 4 - Primo
-├── ejercicio-cinco/        # Ejercicio 5 - Complementario
+├── # Ejercicio 1 - Fibonacci
+│   ├── build.bat
+│   ├── fibonacci.assembler
+│   └── fibonacci.c
+├── # Ejercicio 2 - Factorial
+│   ├── Desarrollo teórico.pdf
+│   ├── Punto 1 - Diagrama factorial.dia
+│   ├── Punto 2 y 3 - Factorial corregido.asm
+│   ├── Punto 4 - Factorial linux.ipynb
+│   ├── Punto 6 - Factorial con entrada.asm
+│   ├── Punto 7 - Factorial C.ipynb
+│   └── Punto 8 - Codigo nuevo.asm
+├── # Ejercicio 3 - Suma
+│   └── suma_de_array.ipynb
+├── # Ejercicio 4 - Primo
+├── # Ejercicio 5 - Complementario
 ├── wiki/                   # Archivos fuente del Wiki
-│   ├── Home.md
-│   ├── Ejercicio-2-Factorial.md
-│   ├── Guia-de-Navegacion.md
-│   └── _Sidebar.md
+│   └── Análisis y resolución de errores de lenguaje ensamblador.
+│        └──Ejercicio 2 Factorial
+│             ├── Problema #1: El programa no muestra resultado
+│             └── Problema #2: Error al compilar en Google Colab
 └── README.md
 
